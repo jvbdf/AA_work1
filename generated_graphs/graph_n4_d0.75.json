@@ -1,0 +1,45 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "x": 343,
+            "y": 488,
+            "id": 0
+        },
+        {
+            "x": 407,
+            "y": 83,
+            "id": 1
+        },
+        {
+            "x": 38,
+            "y": 40,
+            "id": 2
+        },
+        {
+            "x": 102,
+            "y": 325,
+            "id": 3
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 2,
+            "target": 3
+        }
+    ]
+}

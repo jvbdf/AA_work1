@@ -2,6 +2,8 @@ import random
 import math 
 import os
 import networkx as nx
+from networkx.readwrite import json_graph
+import json
 
 class Node:
     def __init__(self, id, x, y):
@@ -88,17 +90,32 @@ class GraphExporter:
     def to_networkx(graph):
         G = nx.Graph()
         for node in graph.nodes:
-            G.add_node(node.id, pos=node.position())
+            G.add_node(node.id, x=node.x, y=node.y)
         for (u, v) in graph.edges:
             G.add_edge(u, v)
         return G
 
     @staticmethod
-    def save_gpickle(graph, filepath):
+    def save_graph(graph, filepath):
         try:
             G = GraphExporter.to_networkx(graph)
-            nx.write_gpickle(G, filepath)
+            data = json_graph.node_link_data(G)
+            with open(filepath, "w") as f:
+                json.dump(data, f, indent=4)
         except Exception as e:
-            raise RuntimeError(f"Falha ao guardar o grafo em ficheiro: {e}")
+            raise RuntimeError(f"Falha ao guardar o grafo: {e}")
+
+    @staticmethod
+    def load_graph(filepath):
+        try:
+            with open(filepath, "r") as f:
+                data = json.load(f)
+            G = json_graph.node_link_graph(data)
+            for n, attr in G.nodes(data=True):
+                G.nodes[n]['x'] = int(attr['x'])
+                G.nodes[n]['y'] = int(attr['y'])
+            return G
+        except Exception as e:
+            raise RuntimeError(f"Falha ao carregar o grafo: {e}")
         
     

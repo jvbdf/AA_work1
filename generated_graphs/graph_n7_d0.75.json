@@ -1,0 +1,104 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "x": 67,
+            "y": 382,
+            "id": 0
+        },
+        {
+            "x": 296,
+            "y": 130,
+            "id": 1
+        },
+        {
+            "x": 103,
+            "y": 11,
+            "id": 2
+        },
+        {
+            "x": 164,
+            "y": 453,
+            "id": 3
+        },
+        {
+            "x": 481,
+            "y": 346,
+            "id": 4
+        },
+        {
+            "x": 252,
+            "y": 280,
+            "id": 5
+        },
+        {
+            "x": 453,
+            "y": 337,
+            "id": 6
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 0,
+            "target": 6
+        },
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 1,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 1,
+            "target": 6
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 2,
+            "target": 4
+        },
+        {
+            "source": 2,
+            "target": 3
+        },
+        {
+            "source": 2,
+            "target": 5
+        },
+        {
+            "source": 3,
+            "target": 5
+        },
+        {
+            "source": 4,
+            "target": 6
+        },
+        {
+            "source": 4,
+            "target": 5
+        },
+        {
+            "source": 5,
+            "target": 6
+        }
+    ]
+}

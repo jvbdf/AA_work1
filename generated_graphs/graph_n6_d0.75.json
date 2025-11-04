@@ -1,0 +1,83 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "x": 178,
+            "y": 219,
+            "id": 0
+        },
+        {
+            "x": 494,
+            "y": 90,
+            "id": 1
+        },
+        {
+            "x": 424,
+            "y": 316,
+            "id": 2
+        },
+        {
+            "x": 374,
+            "y": 390,
+            "id": 3
+        },
+        {
+            "x": 68,
+            "y": 100,
+            "id": 4
+        },
+        {
+            "x": 479,
+            "y": 343,
+            "id": 5
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 0,
+            "target": 4
+        },
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 1,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 2,
+            "target": 4
+        },
+        {
+            "source": 2,
+            "target": 3
+        },
+        {
+            "source": 2,
+            "target": 5
+        },
+        {
+            "source": 4,
+            "target": 5
+        }
+    ]
+}

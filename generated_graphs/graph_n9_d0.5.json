@@ -1,0 +1,126 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "x": 329,
+            "y": 384,
+            "id": 0
+        },
+        {
+            "x": 36,
+            "y": 90,
+            "id": 1
+        },
+        {
+            "x": 368,
+            "y": 175,
+            "id": 2
+        },
+        {
+            "x": 436,
+            "y": 125,
+            "id": 3
+        },
+        {
+            "x": 140,
+            "y": 277,
+            "id": 4
+        },
+        {
+            "x": 208,
+            "y": 418,
+            "id": 5
+        },
+        {
+            "x": 254,
+            "y": 160,
+            "id": 6
+        },
+        {
+            "x": 40,
+            "y": 265,
+            "id": 7
+        },
+        {
+            "x": 183,
+            "y": 158,
+            "id": 8
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 6
+        },
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 0,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 6
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 2,
+            "target": 4
+        },
+        {
+            "source": 2,
+            "target": 3
+        },
+        {
+            "source": 2,
+            "target": 6
+        },
+        {
+            "source": 2,
+            "target": 8
+        },
+        {
+            "source": 3,
+            "target": 6
+        },
+        {
+            "source": 3,
+            "target": 5
+        },
+        {
+            "source": 4,
+            "target": 5
+        },
+        {
+            "source": 4,
+            "target": 8
+        },
+        {
+            "source": 5,
+            "target": 6
+        },
+        {
+            "source": 6,
+            "target": 8
+        },
+        {
+            "source": 6,
+            "target": 7
+        },
+        {
+            "source": 7,
+            "target": 8
+        }
+    ]
+}
